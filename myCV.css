@@ -1,0 +1,26 @@
+@media(min-width: 468px){
+.container{
+	display: flex;
+	justify-content: center;
+	}
+}
+body {
+	text-align: center;
+}
+.container div{
+	border: 1px #ccc solid;
+	padding: 10px;
+}
+.experince{
+	flex: 2;
+}
+.education{
+	flex: 1;
+}
+.skills{
+	flex: 1;
+}
+#main{
+	color: blue;
+	text-decoration: underline;
+}
